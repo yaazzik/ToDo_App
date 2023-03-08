@@ -1,0 +1,53 @@
+.TaskCreator {
+    border: 3px solid #716f6f;
+    border-radius: 0.1rem;
+    margin-top: 2rem;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TaskCreator:hover {
+    border: 3px solid #37dc37;
+}
+
+.addTaskBtn {
+    background: #000;
+    color: #37dc37;
+    padding: 2px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.addTaskBtn:hover {
+    background: #37dc37;
+    color: #000;
+    animation: buttonHover 0.6s forwards;
+}
+
+@keyframes buttonHover {
+    0% {
+        opacity: 0.01;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

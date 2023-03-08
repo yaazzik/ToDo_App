@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+input {
+    outline:none;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #37dc37;
+}
+
+.taskInput {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #221515;
+    padding: 0.2rem;
+}

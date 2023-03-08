@@ -1,0 +1,42 @@
+.Input {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0.2rem;
+}
+
+.caretWrapper {
+    /*flex-grow: 1;*/
+    position: relative;
+}
+
+.taskInput {
+    color: transparent;
+    text-shadow: 0 0 0 #37dc37;
+}
+
+.caret {
+    height: 4px;
+    width: 10px;
+    background: #37dc37;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 4px;
+    animation: blink 0.7s forwards infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.01;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
